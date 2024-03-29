@@ -1,0 +1,38 @@
+ html {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     background-color: #9EDAD0;
+ }
+
+ h1 {
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+
+ img {
+     display: block;
+     margin: 0 auto;
+ }
+
+
+ body {
+     width: 600px;
+     margin: 0 auto;
+     background-color: #ff9500;
+     padding: 0 20px 20px 20px;
+     border: 5px solid black;
+ }
+
+
+ p,
+ li {
+     font-size: 16px;
+     line-height: 2;
+     letter-spacing: 1px;
+ }
+
+ /*Здесь был комментарий о том как мне все еще больно осваивать программирование*/

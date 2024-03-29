@@ -3,6 +3,15 @@
 {% block title %}
 Clothes
 {% endblock %}
+
+{% block menu %}
+<nav>
+    <a href="{{ url_for('index') }}">Главная</a>
+    <a href="{{ url_for('clothes') }}">Одежда</a>
+    <a href="{{ url_for('jacket') }}">Куртка</a>
+</nav>
+{% endblock %}
+
 {% block content %}
 <h1>Одежда</h1>
 {% endblock %}
